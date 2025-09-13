@@ -60,7 +60,7 @@ for i = 1:height(data)
 
     elseif strcmp(type, 'Curve')
         position = 0;
-        %Calculate Braking Distance
+        % Calculate Braking Distance
         stopDistance = (velocity^2) / (2 * aveDeceleration); % Asked ChatGPT
 
         if stopDistance < arcLength
