@@ -1,6 +1,6 @@
 clc, clearvars, clear all
 
-trackDXF = dxf_to_track("OvalTrack.dxf");
+trackDXF = dxf_to_track("NewOvalTrack.dxf");
 
 data = trackDXF;
 
@@ -50,7 +50,7 @@ for i = 1:height(data)
 
             end
 
-            position = position + velocity * 0.1
+            position = position + velocity * 0.1;
             time = time + 0.1;
 
             timeMatrix = [timeMatrix, time]; 
@@ -85,7 +85,7 @@ for i = 1:height(data)
                 end
             end
 
-            position = position + velocity * 0.1
+            position = position + velocity * 0.1;
             time = time + 0.1;
 
             timeMatrix = [timeMatrix, time];
