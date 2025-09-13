@@ -1,5 +1,7 @@
 clc, clearvars, clear all
 
+trackDXF = dxf_to_track()
+
 data = readtable("track.xlsx");
 
 disp(data);
