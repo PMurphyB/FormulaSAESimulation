@@ -14,8 +14,12 @@ mu = 0.85;
 g = 9.81;
 
 velocity = 0;
-position = 0;
 time = 0;
+
+% Maybe will use later for position tracking across the track rather than
+% just segment
+% position = 0;
+
 
 timeMatrix = [];
 accelerationMatrix = [];
