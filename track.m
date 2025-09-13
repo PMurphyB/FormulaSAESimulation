@@ -1,8 +1,8 @@
 clc, clearvars, clear all
 
-trackDXF = dxf_to_track()
+trackDXF = dxf_to_track("OvalTrack.dxf");
 
-data = readtable("track.xlsx");
+data = trackDXF;
 
 disp(data);
 
