@@ -7,6 +7,11 @@ disp(data);
 aveAcceleration = 16;
 aveDeceleration = 16;
 maxVelocity = 70;
+timeStep = 0.1;
+
+%Constants for turn speed
+mu = 0.85;
+g = 9.81;
 
 velocity = 0;
 position = 0;
